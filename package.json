@@ -4,7 +4,7 @@
   "description": "app that lists SpaceX launch missions",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client": "yarn start --prefix client",
     "dev": "concurrently \"npm run server\" \"yarn start client"
